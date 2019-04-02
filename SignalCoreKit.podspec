@@ -37,7 +37,7 @@ A Swift & Objective-C library used by other Signal libraries.
   s.compiler_flags = "-fcxx-modules"
 
   s.prefix_header_file = 'SignalCoreKit/SCKPrefix.h'
-  s.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DSQLITE_HAS_CODEC' }
+  s.xcconfig = { 'OTHER_CFLAGS' => '$(inherited)' }
 
   s.dependency 'CocoaLumberjack'
   s.dependency 'GRKOpenSSLFramework'
